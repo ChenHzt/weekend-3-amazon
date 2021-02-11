@@ -1,0 +1,17 @@
+.product-page{
+    display: grid;
+    grid-template-columns: 34.5% auto 224px;
+    height: 200px;
+    min-width: 1000px;
+}
+
+
+.product-page__left-col{
+    
+}
+
+.product-page__right-col{
+    border: 1px solid var(--light-gray-border-color);
+    border-radius: 8px;
+
+}
