@@ -54,6 +54,9 @@
     font-size: 12px;
     line-height: 14px;
 }
+.nav-info__text{
+    font-family:'amazon-ember' ;
+}
 
 .nav__search{
     flex-grow: 1;
