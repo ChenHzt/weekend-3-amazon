@@ -234,6 +234,10 @@ body{
     text-align: center;
 }
 
+.text--orange{
+    color: var(--orange-links-hover-color);
+}
+
 .btn-secondary{
     background-image: var(--button-background);
 }
