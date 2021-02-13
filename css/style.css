@@ -25,6 +25,11 @@ ul{
     --orange-links-hover-color:#c7511f;
     --regular-text-color: rgb(86,89,89);
     --price-color:rgb(177,39,4);
+    --in-stock-color:#007600;
+    --button-background: linear-gradient(rgb(247, 248, 250), rgb(231, 233, 236));
+    --drop-down-background: #F0F2F2;
+    --add-to-cart-background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    --buy-now: linear-gradient(to bottom,#f6c88f,#ed9220);
 
 }
 @font-face{
@@ -213,6 +218,132 @@ body{
     font-size: 11px;
 }
 
+.text--12{
+    font-size: 12px;
+}
+
 .text--bold{
     font-family:'amazon-ember' ;
 }
+
+.text--in-stock{
+    color: var(--in-stock-color) ;
+}
+
+.text--center{
+    text-align: center;
+}
+
+.btn-secondary{
+    background-image: var(--button-background);
+}
+
+select{
+    border-color: #D5D9D9;
+    border-radius: 8px;
+    color: #0F1111;
+    background: #F0F2F2;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.btn{
+    width:100%;
+    color: var(--text-dark-color);
+    font-size: 14px;
+    height: 29px;
+    display: flex;
+    padding: 1px 6px;
+    align-items: center;
+    
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+
+}
+
+.btn--gray{
+    background: linear-gradient(rgb(247, 248, 250), rgb(231, 233, 236));
+    border-left-color: rgb(162, 166, 172);
+    border-top-color: rgb(173, 177, 184);
+    border-right-color: rgb(162, 166, 172);
+    border-bottom-color: rgb(141, 144, 150);
+}
+
+.btn--add-to-cart{
+    background: var(--add-to-cart-background);
+    border-color: #a88734 #9c7e31 #846a29;
+    
+    
+}
+
+.btn--buy-now{
+    background: var(--buy-now);
+    border-color: #ca7c1b #be751a #a56616;;
+}
+
+.btn__icon{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.btn--buy-now .btn__icon{
+    background-position: -35px -60px;
+    
+}
+.btn--add-to-cart .btn__icon{
+    background-position: -35px -5px;
+    
+}
+
+.btn__label{
+
+    text-align: center;
+    flex-grow: 1;
+}
+
+.location-icon--black{
+    min-width: 16px;
+    height: 14px;
+    float: left;
+    background-image: url(https://m.media-amazon.com/images/G/01/AUIClients/DeliveryStaticPackard-pin_desktop_1x-c944b6819f9e5642fdfd4ff3d1109d60d66d8f87._V2_.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.icon--contact{
+    background-image: url(/images/contact-sprite.png);
+    background-size: 512px 256px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.icon--facebook{
+    width: 17px;
+    height: 17px;
+    background-position: -297px -220px;
+}
+
+.icon--twitter{
+    width: 18px;
+    height: 17px;
+    background-position: -277px -220px;
+}
+
+.icon--email{
+    width: 19px;
+    height: 17px;
+    background-position:-256px -221px;
+}
+
+.icon--pintrest{
+    width: 17px;
+    height: 17px;
+    background-position: -373px -220px;
+}
+
